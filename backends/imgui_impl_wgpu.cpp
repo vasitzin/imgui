@@ -54,7 +54,7 @@
     #endif
 #endif
 
-#include "imgui.h"
+#include "../imgui.h"
 #ifndef IMGUI_DISABLE
 #include "imgui_impl_wgpu.h"
 #include <limits.h>
