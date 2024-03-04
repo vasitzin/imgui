@@ -49,8 +49,7 @@
 //  2021-02-18: Change blending equation to preserve alpha in output buffer.
 //  2021-01-28: Initial version.
 
-#include "imgui.h"
-
+#include "../imgui.h"
 #ifndef IMGUI_DISABLE
 #include "imgui_impl_wgpu.h"
 #include <limits.h>
@@ -968,7 +967,7 @@ const char* ImGui_ImplWGPU_GetLogLevelName(WGPULogLevel level)
 {
     switch (level)
     {
-    case WGPULogLevel_Error: return "Error"; 
+    case WGPULogLevel_Error: return "Error";
     case WGPULogLevel_Warn: return "Warn";
     case WGPULogLevel_Info: return "Info";
     case WGPULogLevel_Debug: return "Debug";
